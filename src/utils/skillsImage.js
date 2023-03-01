@@ -74,11 +74,14 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import node from '../assets/svg/skills/nodejs-icon.svg'
 
 
 export const skillsImage = (skill) => {
     const skillID = skill.toLowerCase();
     switch (skillID) {
+        case 'node js':
+            return node
         case 'gcp':
             return gcp;
         case 'html':
