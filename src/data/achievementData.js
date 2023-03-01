@@ -6,7 +6,7 @@ export const achievementData = {
     achievements : [
         {
             id : 1,
-            title : 'SoyHenry - Fullstack Developer Course',
+            title : 'SoyHenry - Full Stack Developer Course',
             details : 'For having learned and demonstrating the knowledge acquired with 700 hours of code and two approved projects.',
             date : 'Jan 4, 2023',
             field : 'Web Development',
