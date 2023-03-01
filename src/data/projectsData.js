@@ -19,7 +19,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: '"La Dionisa" Wine E-Commerce',
+        projectName: '"La Dionisia" Wine E-Commerce',
         projectDesc: 'This group project was my last exam to pass the SoyHenry bootcamp, created with a lot of love by my project partners and me.',
         tags: ['NextJS', 'Tailwind CSS', 'ReduxToolkit'],
         code: '',
