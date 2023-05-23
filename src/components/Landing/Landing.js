@@ -161,21 +161,34 @@ function Landing() {
                     >
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
-                        <p>{headerData.desciption}</p>
+                        <p>{headerData.description}</p>
 
                         <div className='lcr-buttonContainer'>
-                            {headerData.resumePdf && (
+                            {headerData.resumePdfEng && (
                                 <a
-                                    href={headerData.resumePdf}
-                                    download='resume'
+                                    href={headerData.resumePdfEng}
+                                    download="Guillermo's resume"
                                     target='_blank'
                                     rel='noreferrer'
                                 >
                                     <Button className={classes.resumeBtn}>
-                                        Download CV
+                                        CV English
                                     </Button>
                                 </a>
                             )}
+                            {headerData.resumePdfEsp && (
+                                <a
+                                    href={headerData.resumePdfEsp}
+                                    download="CV de Guillermo O."
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <Button className={classes.resumeBtn}>
+                                        CV Español
+                                    </Button>
+                                </a>
+                            )}
+
                             <NavLink
                                 to='/#contacts'
                                 smooth={true}

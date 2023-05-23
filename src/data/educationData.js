@@ -13,11 +13,11 @@ export const educationData = [
         startYear: '2017',
         endYear: '2020'
     },
-    // {
-    //     // id: 3,
-    //     // institution: 'Hawking University, Cambridge',
-    //     // course: 'Master of Technology',
-    //     // startYear: '2019',
-    //     // endYear: 'Present'
-    // },
+    {
+        id: 3,
+        institution: '"SoyHenry" Bootcamp',
+        course: 'Full Stack Developer',
+        startYear: 'Ago, 2022',
+        endYear: 'Jan, 2023'
+    },
 ]

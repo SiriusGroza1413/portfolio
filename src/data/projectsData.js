@@ -21,29 +21,29 @@ export const projectsData = [
         id: 2,
         projectName: '"La Dionisia" Wine E-Commerce',
         projectDesc: 'This group project was my last exam to pass the SoyHenry bootcamp, created with a lot of love by my project partners and me.',
-        tags: ['NextJS', 'Tailwind CSS', 'ReduxToolkit'],
+        tags: ['NextJS', 'Tailwind CSS', 'ReduxToolkit', 'TS'],
         code: '',
         demo: "https://la-dionisia-front.vercel.app/",
         image: two
     },
-    // {
-    //     id: 3,
-    //     projectName: 'Weather App',
-    //     projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-    //     tags: ['Django', 'CSS', 'Material Ui'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: three
-    // },
-    // {
-    //     id: 4,
-    //     projectName: 'Android Patient Tracker',
-    //     projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-    //     tags: ['Flutter', 'Firebase'],
-    //     code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-    //     image: four
-    // },
+    {
+        id: 3,
+        projectName: 'Weather App',
+        projectDesc: 'Weather forecast doing as a homework at Henry Bootcamp',
+        tags: ['React', 'CSS', 'Redux'],
+        code: '',
+        demo: '',
+        image: three
+    },
+    {
+        id: 4,
+        projectName: 'Sirius Chat App',
+        projectDesc: 'This project involves the development of Flutter chat application using Firebase',
+        tags: ['Flutter', 'Dart', 'Firebase'],
+        code: '',
+        demo: '',
+        image: four
+    },
     // {
     //     id: 5,
     //     projectName: 'E-Commerce App',
